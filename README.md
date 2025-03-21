@@ -11,7 +11,7 @@ This is the official implementation of "PersonaBooth: Personalized Text-to-Motio
 
 ## Prepare Codes and Datasets
 
- ### Dependencies
+ ### [ Environments ]
 
 We tested our code on the following environment.
 
@@ -29,19 +29,17 @@ pip install -r requirements.txt
 
 
 
-### Download PerMo Dataset
+### [ Download PerMo Dataset ]
 
-1. Download **PerMo** dataset with smpl format by
-
-   ```
-   cd prepare
-   sh download_data.sh
-   ```
+PerMO dataset can be downloaded from the [dataset page](https://github.com/AIRC-KETI-VISION/PerMo-dataset/).
+1. Download **Mesh (SMPL-H.zip)** and follow the instructions in the "Data preprocess for PersonaBooth" section.
+   Save the data in the `data/dataset/smpl` directory.
+2. Download **Text Description (PerMo_description.zip)** and unzip in the `data/dataset/description` directory.
 
    
 
 
-### Prepare Dependencies
+### [ Prepare Dependencies ]
 
 PersonaBooth is dependent on external modules: [HumanML3D](https://github.com/EricGuo5513/HumanML3D), [MDM](https://github.com/GuyTevet/motion-diffusion-model), and [TMR](https://github.com/Mathux/TMR).
 
@@ -87,7 +85,7 @@ The modified codes are in the `dependency` folder, but some files or pretrained 
 
 
 
-### Prepare Evaluation Datasets and Codes
+### [ Prepare Evaluation Datasets and Codes ]
 
 1. Download HumanML3D dataset for evaluation.
 
