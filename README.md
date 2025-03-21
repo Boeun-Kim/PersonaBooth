@@ -1,17 +1,15 @@
 # PersonaBooth (CVPR 2025)
 
-This is the official implementation of "PersonaBooth: Personalized Text-to-Motion Generation (CVPR 2025)" [[paper]](https://arxiv.org/abs/2403.06225) [[project]](https://boeun-kim.github.io/page-PersonaBooth/)
+This is the official implementation of "PersonaBooth: Personalized Text-to-Motion Generation (CVPR 2025)" [[paper]](https://arxiv.org/abs/2503.07390) [[project]](https://boeun-kim.github.io/page-PersonaBooth/)
 
-
-
+<br>
 
 ![framework](https://github.com/Boeun-Kim/PersonaBooth/blob/main/figures/framework.png)
 
 
+<br>
 
 ## Prepare Codes and Datasets
-
-
 
  ### Dependencies
 
@@ -98,21 +96,25 @@ The modified codes are in the `dependency` folder, but some files or pretrained 
    Save the following file and folders in the `dependency/MDM/HumanML3D` directory:
 
    🧾 Mean.npy
+   
    🧾 Std.npy
+   
    🧾 test.txt
+   
    📁 new_joint_vecs
+   
    📁 texts
 
    
 
-2. Download PRA classifier for PRA metric by
+3. Download PRA classifier for PRA metric by
 
    ```
    cd prepare
    sh download_PRAeval.sh
    ```
 
-   
+<br>
 
 ## Preprocess PerMo Dataset
 
@@ -125,7 +127,7 @@ The modified codes are in the `dependency` folder, but some files or pretrained 
    sh preprocess_PerMo.sh
    ```
 
-
+<br>
 
 ## Download Pretrained Weights
 
@@ -147,6 +149,7 @@ The modified codes are in the `dependency` folder, but some files or pretrained 
    ```
 
    
+<br>
 
 ## Demo - Generate Personalized Motion
 
@@ -157,10 +160,10 @@ sh demo.sh
 1. Place one or more input motions (guo features) in the 'demo/input' directory.
 2. Provide the text using the '--text' option. Place 'sks' in the position that modifies the subject. For example: 'sks person walks in a circle.'
 3. Users can adjust the hyperparameters in `demo.sh` to find a balance between reflecting the persona and aligning the text.
-
 4. The generated motions can be found in the `demo/result` directory.
 
 
+<br>
 
 ## Train
 
@@ -171,6 +174,7 @@ sh train.sh
 Training arguments can be modified from `arguments_PerMo.py`.
 
 
+<br>
 
 ## Evaluate
 
@@ -183,6 +187,7 @@ The results can be found in the `eval_result` directory.
 Random sampling and iteration are performed for the evaluation metrics. Please follow the settings in `eval_humanml3d_metrics.py` and `eval_PRA.py` for the PerMo benchmark.
 
 
+<br>
 
 ## Citation
 
@@ -194,6 +199,3 @@ Random sampling and iteration are performed for the evaluation metrics. Please f
   year={2025}
 }
 ```
-# PersonaBooth
-# PersonaBooth
-# PersonaBooth
