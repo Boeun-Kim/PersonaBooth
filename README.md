@@ -45,9 +45,13 @@ PersonaBooth is dependent on external modules: [HumanML3D](https://github.com/Er
 
 The modified codes are in the `dependency` folder, but some files or pretrained weights need to be downloaded from the original repositories.
 
+1. Download dependency folder and unzip. Substitute the dependency folder in this repository.
+   [dependency](https://drive.google.com/file/d/1UzBbxaADnz8KeZmaDiYNEdZLHZWZSSWF/view?usp=sharing)
 
 
-1. Download smpl body model by
+
+
+2. Download smpl body model by
 
    ```
    cd prepare
@@ -56,7 +60,7 @@ The modified codes are in the `dependency` folder, but some files or pretrained 
 
 
 
-2. Download the pretrained 50-step MDM weight from the original repository.
+3. Download the pretrained 50-step MDM weight from the original repository.
 
    You can download it from the following link:
 
@@ -70,7 +74,7 @@ The modified codes are in the `dependency` folder, but some files or pretrained 
 
    
 
-3. Download the statistics files of MDM from
+4. Download the statistics files of MDM from
 
    🔗 https://github.com/GuyTevet/motion-diffusion-model/tree/main/dataset
 
