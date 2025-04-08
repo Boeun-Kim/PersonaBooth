@@ -49,7 +49,7 @@ The modified codes are in the `dependency` folder, but some files or pretrained 
 1. Download the dependency folder from the following link and unzip.
    (Substitute the dependency folder in this repository.)
    
-   🔗 https://drive.google.com/file/d/1UzBbxaADnz8KeZmaDiYNEdZLHZWZSSWF/view?usp=sharing
+   🔗 [https://drive.google.com/file/d/1UzBbxaADnz8KeZmaDiYNEdZLHZWZSSWF/view?usp=sharing](https://drive.google.com/file/d/1UzBbxaADnz8KeZmaDiYNEdZLHZWZSSWF/view?usp=sharing)
    
 
 
