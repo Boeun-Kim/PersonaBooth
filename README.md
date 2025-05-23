@@ -161,7 +161,7 @@ The modified codes are in the `dependency` folder, but some files or pretrained 
 sh demo.sh
 ```
 
-1. Place one or more input motions (guo features) in the 'demo/input' directory.
+1. Place one or more input motions (guo features) in the 'demo/input' directory. Only the input motions to be used for a single demo should be in the folder. For example, place only three motions—walk, run, and jump with a single persona—into the folder.
 2. Provide the text using the '--text' option. Place 'sks' in the position that modifies the subject. For example: 'sks person walks in a circle.'
 3. Users can adjust the hyperparameters in `demo.sh` to find a balance between reflecting the persona and aligning the text.
 4. The generated motions can be found in the `demo/result` directory.
