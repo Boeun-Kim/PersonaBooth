@@ -1,0 +1,69 @@
+Non-Commercial Research License (Boeun Kim) v1.0
+================================================
+
+Copyright (c) 2025 Boeun Kim
+
+This software, data, and associated materials (the “Data & Software”) are provided under the following terms:
+
+Definitions
+-----------
+- "Licensor" means Boeun Kim.
+- "Licensee" means the individual or organization obtaining and using the Data & Software.
+- "Research Purposes" means activities whose primary aim is to produce new knowledge or advance education in a non-commercial setting (e.g., academic or nonprofit research projects).
+- "Other Uses" means any activity outside of Research Purposes, including but not limited to commercial, nonprofit services, or public deployments.
+
+Grant of Rights
+---------------
+Licensor grants to Licensee a personal, non-exclusive, non-transferable, free-of-charge right to:
+
+- Install the Data & Software on computers owned, leased, or otherwise controlled by the Licensee and/or their non-commercial research institution.
+- Use the Data & Software **only for non-commercial scientific or educational research** within their organization.
+
+Restrictions
+------------
+- **Research Use Only:** The Data & Software may be used solely for Research Purposes.  
+  Any other use, including offering free or paid services, web demos, public APIs, or integrating into products (even if free), is prohibited.
+- **No Commercial Use:** Commercial purposes are strictly forbidden without prior written permission.
+- **Prohibited Uses:** Military, pornographic, defamatory, or misleading uses are strictly prohibited.
+- **No Redistribution Except for Research Purposes:** The Data & Software may not be copied, shared, distributed, resold, offered for resale, transferred, or sublicensed in whole or in part, except that one archival copy may be made internally.
+
+Modifications and Redistribution
+-------------------------------
+Licensees may modify the Data & Software for legitimate non-commercial Research Purposes.  
+
+Redistribution of modified or derivative works is only permitted on public repositories (such as GitHub) for non-commercial Research Purposes, provided that:
+
+1. Proper attribution is given to Boeun Kim as the original Licensor.
+2. The citation listed below is included in the repository’s README or equivalent documentation.
+3. This License, or a substantially similar non-commercial research license, is included with the redistributed materials.
+4. No part of the redistributed materials may be used for Other Uses.
+
+
+Attribution & Citation
+----------------------
+Licensee agrees to appropriately credit the Licensor and reference the following paper in any publication or public release making use of the Data & Software:
+
+@inproceedings{kim2025personabooth,
+  title={PersonaBooth: Personalized Text-to-Motion Generation},
+  author={Kim, Boeun and Jeong, Hea In and Sung, JungHoon and Cheng, Yihua and Lee, Jeongmin and Chang, Ju Yong and Choi, Sang-Il and Choi, Younggeun and Shin, Saim and Kim, Jungho and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={22756--22765},
+  year={2025}
+}
+
+
+Disclaimer of Warranties
+------------------------
+THE DATA & SOFTWARE IS PROVIDED “AS IS.” LICENSOR MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+Limitation of Liability
+-----------------------
+UNDER NO CIRCUMSTANCES SHALL LICENSOR BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATING TO THIS LICENSE, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+No Maintenance Services
+-----------------------
+Licensor is under no obligation to provide maintenance, updates, or corrections. Licensor reserves the right to modify, discontinue, or update the Data & Software at any time.
+
+Contact
+-------
+For inquiries about licensing beyond research use, please contact: boeun.kim@dankook.ac.kr
